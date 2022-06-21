@@ -856,7 +856,7 @@ void stateEvaluate_check( int py) {
     } 
     
 }
-
+//find the beneficial directions
 void getNextMove(State *s, int py) {
     for(int i = 0; i < SIZE; i++) {
         for(int j = 0; j < SIZE; j++) {
