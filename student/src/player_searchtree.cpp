@@ -956,12 +956,6 @@ void write_valid_spot(std::ofstream& fout) {
     cout << x << " " << y << " " << max_score << std::endl;
     stateEvaluate_check(player);
     stateEvaluate_check(3 - player);
-    // for(int i = 0 ; i < SIZE ; i++) {
-    //     for(int j = 0 ; j < SIZE ; j++) {
-    //         cout << board[i][j]  << " ";
-    //     }
-    //     cout << endl;
-    // }
     fout << x << " " << y << std::endl;
     fout.flush();
 }
